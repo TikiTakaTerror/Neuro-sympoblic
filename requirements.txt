@@ -1,13 +1,17 @@
-# Phase 1 draft only.
-# TODO: Confirm package versions and any optional extras in Phase 2.
+# Phase 2 core environment.
+# These versions were installed successfully in a fresh local `.venv`
+# on this machine using Python 3.10.
 
-numpy
-pandas
-scikit-learn
-matplotlib
-jupyter
-torch
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.8
+jupyter==1.1.1
+torch==2.11.0
+torchvision==0.26.0
 
-# TODO: Confirm the installation method for rsbench.
-# TODO: Confirm the installation method and compatible version for LTNtorch.
-# TODO: Decide whether Concept Bottleneck support needs an external package or an in-house implementation only.
+# External thesis dependencies are intentionally deferred:
+# - `rsbench` will be handled as an external repository in Phase 3.
+# - `LTNtorch` will be validated separately before the neuro-symbolic phase.
+# - The official Concept Bottleneck repo uses a legacy stack, so the thesis
+#   project will likely use an in-house CBM-style implementation instead.

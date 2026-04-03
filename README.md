@@ -12,7 +12,12 @@ The project is intentionally focused on benchmarking methodology rather than pro
 
 ## Current Status
 
-Phase 1 is complete: the repository scaffold and internal documentation placeholders are in place.
+Phase 2 is complete:
+
+- Project scaffold and internal documentation placeholders are in place
+- A reproducible core Python environment is pinned in `requirements.txt`
+- A setup guide is available in `docs/environment_setup.md`
+- A sanity-check script is available in `scripts/check_environment.py`
 
 ## Planned Scope
 
@@ -34,6 +39,9 @@ Phase 1 is complete: the repository scaffold and internal documentation placehol
 
 ## Notes
 
-- Environment setup is intentionally deferred to Phase 2.
 - External repository placement and integration decisions are intentionally deferred to Phase 3.
 - Many files contain `TODO` markers to keep the next implementation steps explicit.
+
+## Quick Start
+
+See `docs/environment_setup.md` for the exact environment creation and verification commands.
