@@ -2,13 +2,26 @@
 
 This folder is reserved for third-party repositories or code snapshots that should stay separate from thesis-owned code.
 
-## Intended Use
+## Planned Layout
 
-- `rsbench` resources
-- `LTNtorch`
-- CBM-related reference code if needed
+```text
+external/
+  rsbench-code/
+  LTNtorch-reference/
+  ConceptBottleneck-reference/
+```
 
-## TODO
+## Usage Policy
 
-- TODO: Phase 3 should define the exact placement strategy for each external repository
-- TODO: Keep wrappers and thesis-specific code in `src/`, not inside external repositories
+- `rsbench-code/` is the main upstream benchmark reference and is the only external repo expected to matter early.
+- `LTNtorch-reference/` is optional and should only be used as a read-only reference clone if needed.
+- `ConceptBottleneck-reference/` is optional and should only be used as a read-only reference clone if needed.
+- Thesis-owned wrappers, train scripts, evaluation code, and configs must stay outside `external/`.
+
+## Important Rule
+
+Keep adapters and benchmark logic in `src/`, not inside external repositories.
+
+## See Also
+
+- `docs/external_integration_plan.md`

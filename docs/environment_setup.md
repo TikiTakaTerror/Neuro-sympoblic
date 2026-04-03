@@ -63,7 +63,7 @@ Reason:
 
 Planned handling:
 
-- Keep `rsbench` external in Phase 3
+- Keep `rsbench` external and document the integration boundary in Phase 3
 - Wrap only the pieces needed for the thesis benchmark instead of adopting the full repository environment
 
 ### `LTNtorch`
@@ -97,6 +97,4 @@ Planned handling:
 
 ## TODO
 
-- TODO: Phase 3 should document the exact external repository placement under `external/`
-- TODO: Phase 3 should record the final `rsbench` interaction strategy
 - TODO: Phase 7 should add the final `LTNtorch` installation note once validated
