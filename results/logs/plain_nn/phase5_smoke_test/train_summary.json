@@ -1,0 +1,16 @@
+{
+  "best_checkpoint": "/Users/abdullahsaeed/Neuro-sympoblic/results/checkpoints/plain_nn/phase5_smoke_test/best.pt",
+  "best_val_accuracy": 0.5,
+  "device": "mps",
+  "epochs": 6,
+  "hidden_dim": 64,
+  "last_checkpoint": "/Users/abdullahsaeed/Neuro-sympoblic/results/checkpoints/plain_nn/phase5_smoke_test/last.pt",
+  "learning_rate": 0.001,
+  "ood_metrics_path": "/Users/abdullahsaeed/Neuro-sympoblic/results/metrics/plain_nn/phase5_smoke_test/ood_metrics.json",
+  "ood_predictions_path": "/Users/abdullahsaeed/Neuro-sympoblic/results/predictions/plain_nn/phase5_smoke_test/ood_predictions.csv",
+  "seed": 7,
+  "test_metrics_path": "/Users/abdullahsaeed/Neuro-sympoblic/results/metrics/plain_nn/phase5_smoke_test/test_metrics.json",
+  "test_predictions_path": "/Users/abdullahsaeed/Neuro-sympoblic/results/predictions/plain_nn/phase5_smoke_test/test_predictions.csv",
+  "training_seconds": 0.7066290378570557,
+  "weight_decay": 0.0
+}
