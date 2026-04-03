@@ -1,0 +1,13 @@
+# Phase 1 draft only.
+# TODO: Confirm package versions and any optional extras in Phase 2.
+
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter
+torch
+
+# TODO: Confirm the installation method for rsbench.
+# TODO: Confirm the installation method and compatible version for LTNtorch.
+# TODO: Decide whether Concept Bottleneck support needs an external package or an in-house implementation only.
